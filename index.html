@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Mi Perfil</h1>
+        <div>
+            <img src="./assets/wallpaperflare.com_Atack on Titan.jpg" alt="Mi foto de perfil" width="400px">
+            <ul>
+                <li>Nombre: Giuliano Ezequiel</li>
+                <li>Apellido: Moyano Muscari</li>
+                <li>Edad: 23 Años</li>
+                <li>Mail: moyanomuscarigiuliano@gmail.com</li>
+            </ul>
+        </div>
+        <div>
+        <h2>About me</h2>
+            <P>Hola, soy de Santiago del Estero y estoy muy feliz por empezar este Bootcamp de <a href="https://www.nucba.com.ar/"><b>Nucba</b></a>. Cuento con algo de conocimientos en html que adquiri por mi cuenta.</P>
+        </div>
+        <hr>
+        <div>
+            <h2>Dejame tus datos para que nos contactemos</h2>
+            <label for="nombre">Nombre: </label> <input type="text" id="nombre" placeholder="Ingrese su Nombre"> <br><br>
+            <label for="apellido">Apellido: </label> <input type="text" id="apellido" placeholder="Ingrese su Apellido"> <br><br>
+            <label for="mail">Correo Electrónico: </label> <input type="email" id="mail" placeholder="Ingrese su E-mail"><br><br>
+            <label for="telefono">Telefono: </label> <input type="tel" id="telefono" placeholder="Ingrese su numero de telefono" required ><br><br>
+            
+            <label for="pais">Pais: </label>
+            <select name="pais">
+                <option value="seleccion" >-Seleccione su Pais-</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Uruguay">Uruguay</option>
+            </select>
+            
+            <p>¿En que momento te llamamos?</p>
+            <label for="mañana">Mañana</label> <input type="radio" name="horario" id="mañana"><br>
+            <label for="Tarde">Tarde</label> <input type="radio" name="horario" id="Tarde"><br>
+            <label for="noche">Noche</label> <input type="radio" name="horario" id="noche"><br>
+            
+            <p>¿En cual de nuestros productos esta interesado?</p>
+            <label for="pc">Pc de Escritorio</label> <input type="checkbox" id="pc">
+            <label for="laptops">Laptos</label> <input type="checkbox" id="laptops">
+            <label for="accesorios">Perifericos y Accesorios</label> <input type="checkbox" id="accesorios">
+            <br><br>
+            <input type="submit"> <input type="reset">
+        </div>
+    </body>
+</html>
